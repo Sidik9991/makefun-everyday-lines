@@ -106,6 +106,37 @@ const CANDIDATES: Candidate[] = [
     scores: [2, 2, 2, 2, 1],
     why: "Surprising and specific, but 'heats itself from the inside out' is a touch abstract for a 10-year-old, so the pair lands a notch below perfect.",
   },
+  // Pass 2 challengers — three fresh candidates to test the pass-1 winner.
+  {
+    id: "alarm-rooster",
+    topic: "alarm clock",
+    line1:
+      "An alarm clock is a tiny rooster that lives in a box and shouts at the same minute every morning until you get up and feed it a button-press.",
+    line2:
+      "The rooster part fits — it wakes you at dawn with a loud call — but a real rooster never snoozes, and it cannot be silenced by slapping it.",
+    scores: [2, 2, 2, 2, 1],
+    why: "Loud, concrete, child-sized — but 'feed it a button-press' is odd phrasing for a 10-year-old, so the pair is a notch below perfect.",
+  },
+  {
+    id: "shadow-twin",
+    topic: "shadow",
+    line1:
+      "Your shadow is a flat dark twin that copies everything you do, stuck to the ground, and it only ever runs away when the sun goes down.",
+    line2:
+      "The twin part fits — it really does copy your shape and moves when you move — but a twin cannot be stepped on, and it never follows you indoors at night.",
+    scores: [2, 1, 1, 2, 2],
+    why: "The twin is familiar rather than surprising, and 'runs away' muddles the picture — shadows vanish, they do not run.",
+  },
+  {
+    id: "fridge-cave",
+    topic: "fridge",
+    line1:
+      "A fridge is a cold cave where food goes to hibernate, sleeping in the dark until you open the door and wake it up for dinner.",
+    line2:
+      "The cave part fits — it is cold and dark and keeps things from spoiling — but nothing in a real cave stays fresh for weeks, and bears never keep milk.",
+    scores: [2, 2, 2, 2, 1],
+    why: "Strong picture and honest limits, but the bear joke in line 2 pulls the pair slightly off the analogy it should be accounting for.",
+  },
 ];
 
 function total(c: Candidate): number {
